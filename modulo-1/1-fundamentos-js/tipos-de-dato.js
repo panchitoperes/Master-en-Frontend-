@@ -7,3 +7,6 @@ console.log(typeof '');
 console.log(typeof null);       
 console.log(typeof undefined);  
 console.log(typeof FALSE);
+console.log(typeof false);
+console.log(typeof "&");
+console.log(typeof pi);

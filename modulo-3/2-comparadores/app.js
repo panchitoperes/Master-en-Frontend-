@@ -1,4 +1,4 @@
-let nota = 80; 
+let nota = prompt("Introduce la nota"); 
 
 if (nota >= 0) {
 

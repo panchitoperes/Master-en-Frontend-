@@ -75,8 +75,8 @@ button:active {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinea los elementos al centro verticalmente */
-    flex-wrap: wrap; /* Permite que los elementos dentro del li se ajusten */
+    align-items: center; 
+    flex-wrap: wrap; 
     word-wrap: break-word; /* Rompe las palabras largas */
     width: 100%;
     max-width: 100%;

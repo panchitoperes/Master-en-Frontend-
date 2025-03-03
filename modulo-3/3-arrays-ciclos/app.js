@@ -30,3 +30,28 @@
 //         color: "verde"
 //     }
 // ]
+
+// Arreglos y cliclos
+// En este proyecto, practicarás los conceptos básicos de arrays (arreglos) y loops (ciclos), que has visto hasta este momento.
+
+// Objetivo
+// El objetivo es agregar un archivo a tu repositorio y que contenga la solución al problema planteado a continuación.
+
+// Problema: Clasificación de Frutas
+// Imagina que tienes un programa que clasifica las frutas según su tipo y cuenta cuántas hay de cada tipo.
+
+// Instrucciones para resolver el problema:
+// Declara un arreglo llamado frutas con varios tipos de frutas.
+// Crea un objeto para almacenar la cantidad de cada tipo de fruta.
+// Usa un ciclo for/while para recorrer el arreglo y contar las frutas.
+// Imprime en la consola la cantidad de cada tipo de fruta.
+// Opcional: intenta implementar la solución con el otro ciclo también (for/while).
+
+let frutas = ['Aguacate', 'Carambola', 'pera', 'manzana', 'naranja', 'pera', 'manzana', 'uva', 'naranja', 'uva', 'pera'];
+let cantidadFrutas = {};
+
+for (let i = 0; i < frutas.length; i++) {
+    const element = frutas[i];
+    cantidadFrutas ++
+}
+console.log(cantidadFrutas)

@@ -1,0 +1,56 @@
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: ro;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 70%;
+}
+form {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+textarea {
+    width: 80%;
+    height: 2rem;
+}  
+
+button {
+    padding: 10px 20px;
+    background-color: #2e2e2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #bdbdbd;
+  }
+  
+button:active {
+    background-color: #bdbdbd;
+  }
+  .commentario {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.eliminarBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}

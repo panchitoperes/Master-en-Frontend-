@@ -37,6 +37,4 @@
 //     numero++; 
 // } console.log(suma);
 
-colores = ['rojo', 'verde', 'azul']
-colores[1] = 'amarillo'
-console.log(colores)
+// Declaramos un arreglo con diferentes tipos de frutas

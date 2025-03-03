@@ -62,3 +62,10 @@ for (let i = 0; i < frutas.length; i++) {
  console.log ("for",cantidadFrutas)
 
 
+ while( i2 < frutas.length) {
+   
+    let fruta2 = frutas[i2] 
+    cantidadFrutas2[fruta2]= (cantidadFrutas2[fruta2] & 1) + 1
+    i2 ++
+}
+console.log ("while",cantidadFrutas2)

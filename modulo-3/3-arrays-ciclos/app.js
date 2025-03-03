@@ -49,9 +49,16 @@
 
 let frutas = ['Aguacate', 'Carambola', 'pera', 'manzana', 'naranja', 'pera', 'manzana', 'uva', 'naranja', 'uva', 'pera'];
 let cantidadFrutas = {};
+let cantidadFrutas2 = {};
+let i2 = 0 
 
 for (let i = 0; i < frutas.length; i++) {
-    const element = frutas[i];
-    cantidadFrutas ++
-}
-console.log(cantidadFrutas)
+     // console.log(`${i+1} ${frutas[i]}`)
+      
+         let fruta = frutas[i] 
+         cantidadFrutas[fruta]= (cantidadFrutas[fruta] & 1) + 1
+            
+ }
+ console.log ("for",cantidadFrutas)
+
+

@@ -1,26 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-
-body {
-    font-family:Arial, Helvetica, sans-serif;
-    font-family: ro;
-    background-color: rgb(66, 66, 66);
+* {
+    box-sizing: border-box; /* Asegura que el padding no afecte al tamaño total */
+}
+h1 {
+    color: aliceblue;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-section {
-    width: 70%;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
 }
+
+section {
+    width: 60%;
+    max-width: 100%;
+}
+
 form {
     width: 90%;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
+
 textarea {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 80%;
     height: 2rem;
-}  
+    resize: none;
+}
 
 button {
     padding: 10px 20px;
@@ -29,20 +46,25 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
+}
+
 button:hover {
     background-color: #bdbdbd;
-  }
-  
+}
+
 button:active {
     background-color: #bdbdbd;
-  }
-  .comentarios {
+}
+
+
+.comentarios {
     margin-top: 20px;
     list-style: none;
     padding: 0;
+    width: 100%;
+    overflow-wrap: break-word; /* Rompe las palabras largas cuando sea necesario */
 }
+
 
 .comentarios li {
     background: rgb(34, 34, 34);
@@ -53,8 +75,24 @@ button:active {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Alinea los elementos al centro verticalmente */
+    flex-wrap: wrap; /* Permite que los elementos dentro del li se ajusten */
+    word-wrap: break-word; /* Rompe las palabras largas */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden; /* Evita que el contenido desborde */
+    white-space: normal; /* Asegura que el texto se ajuste correctamente */
+    word-break: break-word; /* Asegura que el texto largo no se desborde */
 }
+
+
 .btnDelete {
     margin-left: 10px;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    flex-shrink: 0; /* Evita que el botón se encoja */
 }

@@ -17,6 +17,7 @@ form {
     align-content: center;
 }
 textarea {
+    font-family:Arial, Helvetica, sans-serif;
     width: 80%;
     height: 2rem;
 }  
@@ -37,20 +38,23 @@ button:hover {
 button:active {
     background-color: #bdbdbd;
   }
-  .commentario {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    position: relative;
+  .comentarios {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
 }
-.eliminarBtn {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    background: red;
-    color: white;
-    border: none;
+
+.comentarios li {
+    background: rgb(34, 34, 34);
+    color: aliceblue;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.btnDelete {
+    margin-left: 10px;
     cursor: pointer;
-    padding: 5px;
 }

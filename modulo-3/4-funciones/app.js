@@ -22,6 +22,11 @@
 //     for (let i = 0; i < array.length; i++) {
 //         document.write(<h1>`${i + 1}.- ${array[i]}</h1>);}
 // }
+// Instrucciones para resolver el problema:
+// Define una función `agregarLibro(titulo)`, que añada un libro a un array llamado `librosLeidos`.
+// Define una función `mostrarLibrosLeidos()`, que imprima todos los libros que has leído.
+
+
 let bookList = [];
 
 function addBook() {
@@ -31,4 +36,7 @@ function addBook() {
         bookList.push(title);
         title = prompt("Añade un título");
     }
+}
+function showReadBooks() {
+    console.log("Libros leídos:", bookList);
 }
